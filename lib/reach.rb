@@ -45,7 +45,7 @@ module Reach
     
     return results
   end
-  
+=begin  
   def Reach.get_hotmail_contacts(email, password)
     return false if not email =~ VALID_EMAIL
     
@@ -61,4 +61,5 @@ module Reach
     return false if not email =~ VALID_EMAIL
     
   end
+=end
 end
